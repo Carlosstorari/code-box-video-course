@@ -1,0 +1,6 @@
+export default {
+    KINDE_ISSUER_URL : "https://carlos260895.kinde.com",
+    KINDE_POST_CALLBACK_URL : "exp://192.168.0.123:8081",
+    KINDE_POST_LOGOUT_REDIRECT_URL : "exp://192.168.0.123:8081",
+    KINDE_CLIENT_ID : "187eb8c3ba7e4460855d30a920d36b42"
+}
