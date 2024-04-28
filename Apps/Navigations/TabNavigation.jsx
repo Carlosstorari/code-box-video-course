@@ -30,7 +30,7 @@ export default function TabNavigation() {
                 <Ionicons name='book' size={24} color={color} />
             ),
             tabBarLabel: ({color}) => (
-                <Text style={{color:color}}>Home</Text>
+                <Text style={{color:color}}>My Course</Text>
             )
     }}/>
           <Tab.Screen name='Profile' component={ProfileScreen}
@@ -39,7 +39,7 @@ export default function TabNavigation() {
                 <Ionicons name='person-circle' size={24} color={color} />
             ),
             tabBarLabel: ({color}) => (
-                <Text style={{color:color}}>Home</Text>
+                <Text style={{color:color}}>Profile</Text>
             )
     }}/>
     </Tab.Navigator>
